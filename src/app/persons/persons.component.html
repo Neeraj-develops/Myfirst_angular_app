@@ -1,0 +1,4 @@
+<p *ngIf="isFetching">is Fetching.....</p>
+<ul *ngIf="!isFetching">
+    <li *ngFor="let per of personList" (click) = "onRemove(per)">{{per}}</li>
+</ul>

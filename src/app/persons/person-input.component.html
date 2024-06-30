@@ -1,0 +1,7 @@
+<!-- <label for="name" >Name</label>
+<input type="text" id="name" #personEL >
+<button (click) = "onClickPerson(personEL.value)">Click</button> -->
+
+<label for="name" >Name</label>
+<input type="text" id="name"  [(ngModel)]= "entrePersonName">
+<button (click) = "onClickPerson()">Click</button>
